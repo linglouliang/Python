@@ -120,5 +120,5 @@ network.training()
 while True:
     sample = []
     for i in range(3):
-        sample.insert(i, float(input('value: ').strip()))
+        sample.insert(i, float(input('value: ')))
     network.sort(sample)
